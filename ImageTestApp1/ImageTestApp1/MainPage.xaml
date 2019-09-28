@@ -6,8 +6,8 @@
              mc:Ignorable="d"
              x:Class="ImageTestApp1.MainPage">
     <Grid>
-        <StackLayout Grid.Row="0">
-            <Image Source="https://www.beiz.jp/images_M/sky/sky_00001.jpg"/>
+        <StackLayout Grid.Row="0" x:Name="st1">
+            <Image x:Name="Im1"/>
         </StackLayout>
         <WebView Source="https://www.google.com/?hl=ja" BackgroundColor="Aqua" Grid.Row="1"/>
     </Grid>

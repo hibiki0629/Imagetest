@@ -16,6 +16,10 @@ namespace ImageTestApp1
         public MainPage()
         {
             InitializeComponent();
+            Im1.Source= "https://www.beiz.jp/images_M/sky/sky_00001.jpg";
+
+            Image im = new Image { Source = "https://www.beiz.jp/images_M/sky/sky_00001.jpg" };
+            st1.Children.Add(im);
         }
     }
 }
